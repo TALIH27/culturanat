@@ -1,0 +1,135 @@
+/* Reset CSS básico */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da logo */
+.logo {
+    width: 100px; /* Defina o tamanho desejado para a largura da sua logo */
+    height: auto; /* Mantém a proporção da altura de acordo com a largura */
+    margin-left: 100px; /* Move a logo para a direita */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #3d804c; /* Cor de fundo do cabeçalho */
+    color: #d48f06; /* Cor do texto do cabeçalho */
+    padding: 20px 0;
+    text-align: right; /* Alinha o conteúdo do cabeçalho à esquerda */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a {
+		color: #d48f06;
+		text-decoration: none;
+}	
+
+header nav {
+    margin-left: auto; /* Move o menu para a direita */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #d48f06; /* Cor dos links do menu */
+    text-decoration: none;
+	font-size: 20px;
+}
+
+/* Mudança nos links do banner ao passar o mouse */
+header nav ul li a:hover{
+    color: #f4f4f4; /* Cor dos links do menu */
+}
+
+/* Estilo do banner */
+#banner {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#banner h2 {
+    color: #3e5c2e; /* Cor padrão para o título do banner */
+}
+
+
+
+/* Estilo das seções */
+section {
+    	margin-bottom: 0px;
+		font-family: Garamond, serif;
+		font-size: 20px;
+		padding: 50px 0;
+    text-align: center;
+	color: #3e5c2e
+}
+
+/* Trabalha a class "lista" */
+section .lista{
+		 padding: 50px 0;
+        text-align: center;
+		font-family: Garamond, serif;
+		font-size: 20px;
+		padding: 10px 0;
+        text-align: center;
+		color: #3e5c2e
+}	
+
+/* Puxei a ID declarando que estou mexendo da ID "img1" que é nossa imagem */
+section #img1{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border-radius: 20px;
+		border-style: solid;
+		border-color:  #3d804c;
+}	
+
+section #img1:hover{
+		border-radius: 500px;
+		border-style: solid;
+		border-color:  #3d804c;
+}	
+
+section h2 {
+    		
+margin-bottom: 10px;
+		font-family: Garamond, serif;
+		font-size: 20px;
+		padding: 50px 0;
+    text-align: center;
+    color: #3e5c2e; /* Cor padrão para os títulos das seções */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #3d804c; /* Cor de fundo do rodapé */
+    color:#d48f06; /* Cor do texto do rodapé */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+	font-size: 20px;
+}
+
+/* Estilo do container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
